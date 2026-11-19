@@ -110,9 +110,10 @@
         }
 
         .hero {
-            min-height: 650px;
+            /* Content sits just below the navbar instead of being centered in a tall block */
+            padding: 72px 0 32px;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             position: relative;
             overflow: hidden;
         }
@@ -134,7 +135,6 @@
             max-width: 800px;
             position: relative;
             z-index: 1;
-            padding: 90px 0;
         }
 
         .eyebrow {
@@ -532,7 +532,7 @@
             }
 
             .hero {
-                min-height: 580px;
+                padding: 48px 0 24px;
             }
 
             .about-grid, .skills-grid {
